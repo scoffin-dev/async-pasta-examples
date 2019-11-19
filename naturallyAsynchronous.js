@@ -22,7 +22,7 @@ function cookRotini() {
                 rotiniStatus = 'cooked';
                 alert(`Beep! Beep! Beep! This is your oven timer telling you the rotini is done cooking.`)
                 console.log(`The timer just went off. If you'd waited, your rotini would be '${rotiniStatus}' right now...`)
-            }, 5000); // Set cook time (timeout) to 11 minutes (in ms)
+            }, 5000); // Set cook time (abbreviating 11 minutes to 5 seconds)
             console.log(`Is the rotini ready? The rotini is '${rotiniStatus}'.`);
             return rotiniStatus;
         }
